@@ -14,3 +14,17 @@ function getComputerChoice() {
     return computerChoice;
 }
 let computerChoice = getComputerChoice();
+
+function getHumanChoice() {
+    let choice;
+    let entry = prompt("enter one of three: 1.rock, 2.paper, 3.scissors", "");
+    if ((entry.toLowerCase() === "rock") || (entry === "1")) {
+        choice = "Rock";
+    } else if ((entry.toLowerCase() === "paper") || (entry === "2")) {
+        choice = "Paper";
+    } else if ((entry.toLowerCase() === "scissors") || (entry === "3")) {
+        choice = "Scissors";
+    } else getHumanChoice();
+    return choice;
+}
+let humanChoice = getHumanChoice();
