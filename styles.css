@@ -1,0 +1,26 @@
+#buttons {
+    display:flex;
+}
+
+#buttons button {
+    margin:20px;
+    flex:1;
+    padding:20px;
+    font-size: 20px;
+}
+
+#scoreboard {
+    border: solid black 1px;
+    margin:20px;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+}
+
+#message {
+    border: solid black 1px;
+    margin:20px;
+    padding:20px;
+    font-size:20px;
+    text-align:center;
+}
